@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Player 1: Chris</p>
+    <div>Player 2: Matthew</div>
+    <script>
+
+        const para1 = document.querySelector('p')
+        const para2 = document.querySelector('div')
+
+        para1.addEventListener('click', updateName)
+        para2.addEventListener('click', updateName2)
+
+        function updateName(){
+            let name = prompt('Enter a new name')
+            para1.textContent = 'Player 1: ' + name
+        }
+
+        function updateName2(){
+            let name = prompt('Enter a new name')
+            para2.textContent = 'Player 2: ' + name
+        }    
+    </script>
+        
+</body>
+</html>
