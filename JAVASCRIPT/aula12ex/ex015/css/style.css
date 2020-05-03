@@ -1,0 +1,32 @@
+body {
+    background: #2e5786;
+    font: normal 18px Arial;
+}
+
+header {
+    padding: 40px 0 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(233, 227, 227);
+}
+
+.dados{
+    padding: 8px 0;
+}
+
+section {
+    margin: auto;
+    padding: 15px;
+    background: white;
+    border-radius: 25px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+}
+
+footer {
+    text-align: center;
+    color: rgb(233, 227, 227);
+    font-style: italic;
+}
